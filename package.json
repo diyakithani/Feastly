@@ -1,0 +1,22 @@
+{
+  "name": "feastly",
+  "version": "1.0.0",
+  "description": "A food ordering full-stack application ",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diyakithani/Feastly.git"
+  },
+  "keywords": [
+    "feast"
+  ],
+  "author": "Diya Kithani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diyakithani/Feastly/issues"
+  },
+  "homepage": "https://github.com/diyakithani/Feastly#readme"
+}

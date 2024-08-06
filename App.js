@@ -1,6 +1,11 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom";
 
+// Create a React element
 const h = React.createElement("h1", { className: "title" }, "heading");
-const root = React.createElement("div", { className: "root" }, <h></h>);
-root.render();
+
+// Get the root DOM node
+const rootElement = document.getElementById("root");
+
+const root = ReactDOM.createRoot(rootElement);
+root.render(h);

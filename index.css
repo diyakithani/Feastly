@@ -1,0 +1,26 @@
+.nav-items{
+    margin:0;
+    align-content: space-evenly;
+    justify-content: space-between;
+    
+}
+.nav-items>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw;
+
+
+}
+.nav-items>ul>li{
+    margin: 1vw;
+}
+.header{
+    display: flex;
+    border: 1px solid brown;
+}
+.logo{
+    width:4vw;
+    margin: 10px;
+    padding-top: 0%;
+}
